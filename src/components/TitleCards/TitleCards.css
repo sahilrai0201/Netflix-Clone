@@ -1,4 +1,45 @@
-.title-cards{
+.title-cards {
+  padding-left: 6%;
+  margin-top: 40px;
+}
+
+.title-cards h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.card-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+}
+
+.card img {
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.06);
+}
+
+
+
+
+/* .title-cards{
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -12,10 +53,6 @@
     gap: 10px;
     overflow-x: auto;
     overflow-y: visible;
-
-    /* display: flex;
-    gap: 10px;
-    overflow-x: scroll; */
 }
 
 .card-list::-webkit-scrollbar{
@@ -31,17 +68,19 @@
 .card-list .card{
     position: relative;
     transition: transform 0.3s ease;
-    /* position: relative; */
+    position: relative;
 }
 
 .card-list .card p{
     position: absolute;
     bottom: 10px;
     right: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .card-list .card:hover {
     transform: scale(1.1);
     z-index: 5;
 }
-
+ */

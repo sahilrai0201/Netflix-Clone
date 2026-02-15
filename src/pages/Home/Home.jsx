@@ -34,12 +34,16 @@ const Home = () => {
               <img src={info_icon} alt="moreinfo" /> More Info
             </button>
           </div>
-
         </div>
       </div>
 
+      {/* 🔥 Netflix-style fade effect */}
+      <div className="hero-fade"></div>
+
+      {/* Popular Section BELOW hero */}
       <TitleCards title="Popular on Netflix" category="marvel" />
 
+      {/* Other Sections */}
       <div className="more-cards">
         <TitleCards title="Blockbuster Movies" category="avengers" />
         <TitleCards title="Only on Netflix" category="stranger" />
